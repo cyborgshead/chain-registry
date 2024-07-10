@@ -43,7 +43,6 @@
       "version": "v0.34.27"
     },
     "cosmwasm_version": "v0.33.0",
-    "cosmwasm_enabled": true,
     "ibc_go_version": "v4.6.0",
     "genesis": {
       "genesis_url": "https://cloudflare-ipfs.com/ipfs/QmYubyVNfghD4xCrTFj26zBwrF9s5GJhi1TmxvrwmJCipr"
