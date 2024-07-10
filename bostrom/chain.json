@@ -1,5 +1,6 @@
 {
   "$schema": "../chain.schema.json",
+  "website": "https://cyb.ai",
   "chain_name": "bostrom",
   "status": "live",
   "network_type": "mainnet",
@@ -28,30 +29,47 @@
   },
   "codebase": {
     "git_repo": "https://github.com/cybercongress/go-cyber",
-    "recommended_version": "v0.3.0",
+    "recommended_version": "v3.0.1",
     "compatible_versions": [
-      "v0.3.0"
+      "v3.0.1"
     ],
     "binaries": {
-      "linux/amd64": "https://github.com/cybercongress/go-cyber/releases/download/v0.2.0/cyber_v0.2.0_linux-amd64.tar.gz",
-      "darwin/amd64": "https://github.com/cybercongress/go-cyber/releases/download/v0.2.0/cyber_v0.2.0_darwin-amd64.tar.gz"
+      "linux/amd64": "https://github.com/cybercongress/go-cyber/releases/download/v3.0.1/cyber_v3.0.1_linux-amd64.tar.gz",
+      "darwin/amd64": "https://github.com/cybercongress/go-cyber/releases/download/v3.0.1/cyber_v3.0.1_darwin-amd64.tar.gz"
     },
+    "cosmos_sdk_version": "v0.45.16",
+    "consensus": {
+      "type": "tendermint",
+      "version": "v0.34.27"
+    },
+    "cosmwasm_version": "v0.33.0",
+    "cosmwasm_enabled": true,
+    "ibc_go_version": "v4.6.0",
     "genesis": {
       "genesis_url": "https://cloudflare-ipfs.com/ipfs/QmYubyVNfghD4xCrTFj26zBwrF9s5GJhi1TmxvrwmJCipr"
     },
     "cosmwasm_enabled": true,
     "versions": [
       {
-        "name": "v0.3.0",
-        "recommended_version": "v0.3.0",
+        "name": "v3",
+        "proposal": 41,
+        "height": 13078000,
+        "recommended_version": "v3.0.1",
         "compatible_versions": [
-          "v0.3.0"
+          "v3.0.1"
         ],
-        "cosmwasm_enabled": true,
         "binaries": {
-          "linux/amd64": "https://github.com/cybercongress/go-cyber/releases/download/v0.2.0/cyber_v0.2.0_linux-amd64.tar.gz",
-          "darwin/amd64": "https://github.com/cybercongress/go-cyber/releases/download/v0.2.0/cyber_v0.2.0_darwin-amd64.tar.gz"
-        }
+          "linux/amd64": "https://github.com/cybercongress/go-cyber/releases/download/v3.0.1/cyber_v3.0.1_linux-amd64.tar.gz",
+          "darwin/amd64": "https://github.com/cybercongress/go-cyber/releases/download/v3.0.1/cyber_v3.0.1_darwin-amd64.tar.gz"
+        },
+        "cosmos_sdk_version": "v0.45.16",
+        "consensus": {
+          "type": "tendermint",
+          "version": "v0.34.27"
+        },
+        "cosmwasm_version": "v0.33.0",
+        "cosmwasm_enabled": true,
+        "ibc_go_version": "v4.6.0"
       }
     ]
   },
@@ -72,7 +90,13 @@
         "provider": "Allnodes ⚡️ Nodes & Staking"
       }
     ],
-    "persistent_peers": []
+    "persistent_peers": [
+      {
+        "id": "5d542c0eb40ae48dc2cac0c140aedb605ded77dc",
+        "address": "195.201.105.229:26656",
+        "provider": "cybercongress"
+      }
+    ]
   },
   "apis": {
     "rpc": [
@@ -105,11 +129,15 @@
     ],
     "grpc": [
       {
+        "address": "grpc.bostrom.cybernode.ai:1443",
+        "provider": "cybercongress"
+      },
+      {
         "address": "grpc-cyber-ia.cosmosia.notional.ventures:443",
         "provider": "Notional"
       },
       {
-        "address": "https://grpc.cyber.bronbro.io:443",
+        "address": "https://grpc.bostrom.bronbro.io:443",
         "provider": "Bro_n_Bro"
       }
     ]
