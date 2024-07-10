@@ -1,19 +1,23 @@
 {
   "$schema": "../chain.schema.json",
-  "website": "https://cyb.ai",
   "chain_name": "bostrom",
   "status": "live",
   "network_type": "mainnet",
-  "pretty_name": "bostrom",
+  "website": "https://cyb.ai",
+  "pretty_name": "Bostrom",
   "chain_id": "bostrom",
   "bech32_prefix": "bostrom",
   "daemon_name": "cyber",
   "node_home": "$HOME/.cyber",
+  "key_algos": [
+    "secp256k1"
+  ],
   "slip44": 118,
   "fees": {
     "fee_tokens": [
       {
         "denom": "boot",
+        "fixed_min_gas_price": 0,
         "low_gas_price": 0,
         "average_gas_price": 0,
         "high_gas_price": 0.01
@@ -78,23 +82,8 @@
   },
   "peers": {
     "seeds": [
-      {
-        "id": "d0518ce9881a4b0c5872e5e9b7c4ea8d760dad3f",
-        "address": "85.10.207.173:26656",
-        "provider": "cybercongress"
-      },
-      {
-        "id": "8542cd7e6bf9d260fef543bc49e59be5a3fa9074",
-        "address": "seed.publicnode.com:26656",
-        "provider": "Allnodes ⚡️ Nodes & Staking"
-      }
     ],
     "persistent_peers": [
-      {
-        "id": "5d542c0eb40ae48dc2cac0c140aedb605ded77dc",
-        "address": "195.201.105.229:26656",
-        "provider": "cybercongress"
-      }
     ]
   },
   "apis": {
@@ -102,10 +91,6 @@
       {
         "address": "https://rpc.bostrom.cybernode.ai",
         "provider": "cybercongress"
-      },
-      {
-        "address": "https://rpc-cyber-ia.cosmosia.notional.ventures/",
-        "provider": "Notional"
       },
       {
         "address": "https://rpc.cyber.bronbro.io:443",
@@ -118,10 +103,6 @@
         "provider": "cybercongress"
       },
       {
-        "address": "https://api-cyber-ia.cosmosia.notional.ventures/",
-        "provider": "Notional"
-      },
-      {
         "address": "https://lcd.cyber.bronbro.io:443",
         "provider": "Bro_n_Bro"
       }
@@ -130,10 +111,6 @@
       {
         "address": "grpc.bostrom.cybernode.ai:1443",
         "provider": "cybercongress"
-      },
-      {
-        "address": "grpc-cyber-ia.cosmosia.notional.ventures:443",
-        "provider": "Notional"
       },
       {
         "address": "https://grpc.bostrom.bronbro.io:443",
