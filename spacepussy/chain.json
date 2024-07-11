@@ -1,0 +1,119 @@
+{
+  "$schema": "../chain.schema.json",
+  "chain_name": "spacepussy",
+  "status": "live",
+  "network_type": "mainnet",
+  "website": "https://spacepussy.ai",
+  "pretty_name": "Space Pussy",
+  "chain_id": "space-pussy",
+  "bech32_prefix": "pussy",
+  "daemon_name": "pussy",
+  "node_home": "$HOME/.pussy",
+  "key_algos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "pussy",
+        "fixed_min_gas_price": 0,
+        "low_gas_price": 0,
+        "average_gas_price": 0,
+        "high_gas_price": 1
+      }
+    ]
+  },
+  "staking": {
+    "staking_tokens": [
+      {
+        "denom": "pussy"
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/greatweb/space-pussy",
+    "recommended_version": "v0.0.3",
+    "compatible_versions": [
+      "v0.0.3"
+    ],
+    "binaries": {},
+    "cosmos_sdk_version": "v0.45.5",
+    "consensus": {
+      "type": "tendermint",
+      "version": "v0.34.19"
+    },
+    "cosmwasm_version": "v0.28.0",
+    "ibc_go_version": "v3.0.0",
+    "genesis": {
+      "genesis_url": "https://cloudflare-ipfs.com/ipfs/QmYubyVNfghD4xCrTFj26zBwrF9s5GJhi1TmxvrwmJCipr"
+    },
+    "cosmwasm_enabled": true,
+    "versions": [
+      {
+        "name": "v0.0.3",
+        "proposal": 8,
+        "height": 6492300,
+        "recommended_version": "v0.0.3",
+        "compatible_versions": [
+          "v0.0.3"
+        ],
+        "binaries": {},
+        "cosmos_sdk_version": "v0.45.5",
+        "consensus": {
+          "type": "tendermint",
+          "version": "v0.34.19"
+        },
+        "cosmwasm_version": "v0.28.0",
+        "cosmwasm_enabled": true,
+        "ibc_go_version": "v3.0.0"
+      }
+    ]
+  },
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/boot.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/boot.svg"
+  },
+  "peers": {
+    "seeds": [
+    ],
+    "persistent_peers": [
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.space-pussy.cybernode.ai",
+        "provider": "cybercongress"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://lcd.space-pussy.cybernode.ai",
+        "provider": "cybercongress"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.space-pussy.cybernode.ai:1443",
+        "provider": "cybercongress"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "spacepussy",
+      "url": "https://spacepussy.ai/",
+      "tx_page": "https://spacepussy.ai/network/bostrom/tx/${txHash}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/boot.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/boot.svg",
+      "theme": {
+        "primary_color_hex": "#9e2ff6"
+      }
+    }
+  ]
+}

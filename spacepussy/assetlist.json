@@ -1,0 +1,137 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chain_name": "spacepussy",
+  "assets": [
+    {
+      "description": "The staking token of Space Pussy",
+      "denom_units": [
+        {
+          "denom": "pussy",
+          "exponent": 0,
+          "aliases": [
+            "pussy"
+          ]
+        }
+      ],
+      "base": "pussy",
+      "name": "Pussy",
+      "display": "pussy",
+      "symbol": "PUSSY",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/boot.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/boot.svg"
+      },
+      "coingecko_id": "spacepussy",
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/boot.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/boot.svg",
+          "theme": {
+            "primary_color_hex": "#4cea4e"
+          }
+        }
+      ]
+    },
+    {
+      "description": "The liquid staking token of Space Pussy",
+      "denom_units": [
+        {
+          "denom": "liquidpussy",
+          "exponent": 0,
+          "aliases": [
+            "liquidpussy"
+          ]
+        }
+      ],
+      "base": "liquidpussy",
+      "name": "Liquid Pussy",
+      "display": "liquidpussy",
+      "symbol": "LP",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/hydrogen.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/hydrogen.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/hydrogen.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/hydrogen.svg",
+          "theme": {
+            "primary_color_hex": "#ffffff"
+          }
+        }
+      ]
+    },
+    {
+      "description": "The resource token of Space Pussy",
+      "denom_units": [
+        {
+          "denom": "milliampere",
+          "exponent": 0,
+          "aliases": [
+            "milliampere"
+          ]
+        },
+        {
+          "denom": "ampere",
+          "exponent": 3,
+          "aliases": [
+            "ampere"
+          ]
+        }
+      ],
+      "base": "milliampere",
+      "name": "Ampere",
+      "display": "ampere",
+      "symbol": "A",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/boot.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/boot.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/boot.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/boot.svg",
+          "theme": {
+            "primary_color_hex": "#f4ecce"
+          }
+        }
+      ]
+    },
+    {
+      "description": "The resource token of Bostrom",
+      "denom_units": [
+        {
+          "denom": "millivolt",
+          "exponent": 0,
+          "aliases": [
+            "millivolt"
+          ]
+        },
+        {
+          "denom": "volt",
+          "exponent": 3,
+          "aliases": [
+            "volt"
+          ]
+        }
+      ],
+      "base": "millivolt",
+      "name": "Volt",
+      "display": "volt",
+      "symbol": "V",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/boot.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/boot.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/boot.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/boot.svg",
+          "theme": {
+            "primary_color_hex": "#fba809"
+          }
+        }
+      ]
+    }
+  ]
+}
